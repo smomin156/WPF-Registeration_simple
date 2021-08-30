@@ -1,0 +1,111 @@
+﻿<Window x:Class="UserRegisteration.RegisterationForm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UserRegisteration"
+        mc:Ignorable="d"
+        Title="RegisterationForm" Height="450" Width="800">
+    <Grid >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="60*"/>
+            <ColumnDefinition Width="40*"/>
+        </Grid.ColumnDefinitions>
+        <Grid Grid.Column="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30*"/>
+                <RowDefinition Height="30*"/>
+                <RowDefinition Height="25*"/>
+                <RowDefinition Height="15*"/>
+            </Grid.RowDefinitions>
+            <Grid Grid.Row="0" Grid.Column="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="5*"/>
+                    <ColumnDefinition Width="5*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="2*"/>
+                    <RowDefinition Height="2*"/>
+                    <RowDefinition Height="4*"/>
+                    <RowDefinition Height="2*"/>
+                </Grid.RowDefinitions>
+                <Label Content="Username" Grid.Row="0" Grid.Column="0"/>
+                <TextBox Name="txtUsername" Grid.Row="0" Grid.Column="1" LostFocus="txtUsername_LostFocus"/>
+                <Label Content="Password" Grid.Row="1" Grid.Column="0"/>
+                <PasswordBox Name="txtPassword" Grid.Row="1" Grid.Column="1"/>
+                <Label Content="Address" Grid.Row="2" Grid.Column="0"/>
+                <TextBox Name="txtAddress" MinLines="3" Grid.Row="2" Grid.Column="1"/>
+                <Label Content="Country" Grid.Row="3" Grid.Column="0"/>
+                <ComboBox Name="txtCountry" Grid.Row="3" Grid.Column="1">
+                    <ComboBoxItem Content="India"/>
+                    <ComboBoxItem Content="China"/>
+                    <ComboBoxItem Content="Russia"/>
+                </ComboBox>
+            </Grid>
+            <Grid Grid.Row="1" Grid.Column="0" >
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="3*"/>
+                    <RowDefinition Height="3*"/>
+                    <RowDefinition Height="3*"/>
+                </Grid.RowDefinitions>
+                <GroupBox Grid.Row="0">
+                    <GroupBox.Header>Contact No</GroupBox.Header>
+                    <StackPanel Orientation="Horizontal">
+                        <CheckBox Name="chkTel" Checked="chkTel_Checked" Unchecked="chkTel_Unchecked">Tel</CheckBox>
+                        <TextBox Width="100" Margin="10" Visibility="Hidden" Name="txtTel"></TextBox>
+                        <CheckBox Name="chkMob" Checked="chkMob_Checked" Unchecked="chkMob_Unchecked">Mobile</CheckBox>
+                        <TextBox Width="100" Margin="10" Visibility="Hidden" Name="txtMobile"></TextBox>
+                    </StackPanel>
+                </GroupBox>
+                <GroupBox Grid.Row="1" Name="Gender">
+                    <GroupBox.Header>Gender</GroupBox.Header>
+                    <StackPanel Orientation="Horizontal">
+                        <RadioButton Name="chkMale">Male</RadioButton>
+                        <RadioButton Name="chkFemale">Female</RadioButton>
+                    </StackPanel>
+                </GroupBox>
+                <GroupBox Grid.Row="2">
+                    <GroupBox.Header>Marital Status</GroupBox.Header>
+                    <StackPanel Orientation="Horizontal">
+                        <RadioButton Name="chkMarried">Married</RadioButton>
+                        <RadioButton Name="ChkSingle">Single</RadioButton>
+                    </StackPanel>
+                </GroupBox>
+            </Grid>
+            <Grid Grid.Row="2" Grid.Column="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="5*"/>
+                    <ColumnDefinition Width="5*"/>
+                </Grid.ColumnDefinitions>
+                <Label Content="Qualification"/>
+                <ListBox SelectionMode="Multiple" Grid.Column="1" Name="listQualification">
+                    <ListBoxItem Content="CA"/>
+                    <ListBoxItem Content="Doctor"/>
+                    <ListBoxItem Content="Engineer"/>
+                    <ListBoxItem Content="MCA"/>
+                    <ListBoxItem Content="Graduate"/>
+                </ListBox>
+            </Grid>
+            <Grid Grid.Row="3" Grid.Column="0">
+                <StackPanel Orientation="Horizontal" Margin="15" VerticalAlignment="Center" HorizontalAlignment="Center">
+                    <Button Name="btnSave" Click="btnSave_Click" Content="Save" Margin="10"/>
+                    <Button Name="btnClear" Content="Clear" Click="btnClear_Click" Margin="10"/>
+                </StackPanel>
+            </Grid>
+        </Grid>
+        <Grid Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="10*"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="50*"/>
+            </Grid.RowDefinitions>
+            <CheckBox Checked="CheckBox_Checked" Unchecked="CheckBox_Unchecked" Name="chkList">Display Existing users</CheckBox>
+            <ListBox Name="listUser" Grid.Row="1" SelectionChanged="listUser_SelectionChanged">
+                
+            </ListBox>
+            <RichTextBox Name="txtrich" Grid.Row="2" >
+                
+            </RichTextBox>
+        </Grid>
+    </Grid>
+</Window>

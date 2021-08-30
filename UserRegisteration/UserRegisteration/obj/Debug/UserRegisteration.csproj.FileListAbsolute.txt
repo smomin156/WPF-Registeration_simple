@@ -1,0 +1,17 @@
+C:\TRAINING\WPF-BhavanaMaam\UserRegisteration\UserRegisteration\bin\Debug\UserRegisteration.exe.config
+C:\TRAINING\WPF-BhavanaMaam\UserRegisteration\UserRegisteration\bin\Debug\UserRegisteration.exe
+C:\TRAINING\WPF-BhavanaMaam\UserRegisteration\UserRegisteration\bin\Debug\UserRegisteration.pdb
+C:\TRAINING\WPF-BhavanaMaam\UserRegisteration\UserRegisteration\obj\Debug\UserRegisteration.csproj.AssemblyReference.cache
+C:\TRAINING\WPF-BhavanaMaam\UserRegisteration\UserRegisteration\obj\Debug\MainWindow.g.cs
+C:\TRAINING\WPF-BhavanaMaam\UserRegisteration\UserRegisteration\obj\Debug\App.g.cs
+C:\TRAINING\WPF-BhavanaMaam\UserRegisteration\UserRegisteration\obj\Debug\UserRegisteration_MarkupCompile.cache
+C:\TRAINING\WPF-BhavanaMaam\UserRegisteration\UserRegisteration\obj\Debug\UserRegisteration_MarkupCompile.lref
+C:\TRAINING\WPF-BhavanaMaam\UserRegisteration\UserRegisteration\obj\Debug\MainWindow.baml
+C:\TRAINING\WPF-BhavanaMaam\UserRegisteration\UserRegisteration\obj\Debug\UserRegisteration.g.resources
+C:\TRAINING\WPF-BhavanaMaam\UserRegisteration\UserRegisteration\obj\Debug\UserRegisteration.Properties.Resources.resources
+C:\TRAINING\WPF-BhavanaMaam\UserRegisteration\UserRegisteration\obj\Debug\UserRegisteration.csproj.GenerateResource.cache
+C:\TRAINING\WPF-BhavanaMaam\UserRegisteration\UserRegisteration\obj\Debug\UserRegisteration.csproj.CoreCompileInputs.cache
+C:\TRAINING\WPF-BhavanaMaam\UserRegisteration\UserRegisteration\obj\Debug\UserRegisteration.exe
+C:\TRAINING\WPF-BhavanaMaam\UserRegisteration\UserRegisteration\obj\Debug\UserRegisteration.pdb
+C:\TRAINING\WPF-BhavanaMaam\UserRegisteration\UserRegisteration\obj\Debug\RegisterationForm.g.cs
+C:\TRAINING\WPF-BhavanaMaam\UserRegisteration\UserRegisteration\obj\Debug\RegisterationForm.baml
